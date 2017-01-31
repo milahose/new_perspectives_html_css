@@ -1,13 +1,13 @@
 ﻿/*
    New Perspectives on HTML
    Tutorial 2
-   Tutorial Case
+   Review Assignment
 
-   CAMShots Style Sheet
+   CAMShots Contest Style Sheet
    Author: Gerry Hayward
    Date:   3/1/2014
 
-   Filename:         camstyles.css
+   Filename:         constyles.css
    Supporting Files: none
 
 */
@@ -61,7 +61,7 @@ margin: 0px 4px 5px 0px;
 }
 
 section {
-width: 64%;
+width: 60%;
 float: left;
 }
 
@@ -70,7 +70,7 @@ width: 100%;
 }
 
 section p {
-font-size: 1.1em;
+font-size: 0.9em;
 margin: 0px 20px 10px 0px;
 }
 
@@ -108,44 +108,29 @@ margin: 0px auto;
 
 aside {
 float: left;
-width: 35%;
+margin-top: 25px;
+width: 38%;
 border-left: 3px solid #2d04ff;
+border-top: 3px solid #2d04ff;
 border-bottom: 3px solid #2d04ff;
-border-radius: 0px 0px 0px 45px;
--moz-border-radius: 0px 0px 0px 45px;
--webkit-border-bottom-left-radius: 45px;
+border-radius: 25px 0px 0px 25px;
+-moz-border-radius: 25px 0px 0px 25px;
+-webkit-border-bottom-left-radius: 25px;
+-webkit-border-top-left-radius: 25px;
 }
 
 aside h1 {
+text-align: center;
 font-size: 1.1em;
 font-weight: normal;
-text-align: center;
-margin: 5px 0px;
-line-height: 1.1em;
+color: #2d04ff;
+margin: 5px 0px 0px;
+border-bottom: 2px solid #2d04ff;
 }
 
-aside figure {
-display: block;
-width: 90%;
-margin: 0px auto;
-}
-
-aside figure img {
-display: block;
-margin: 0px auto;
-box-shadow:10px 10px 20px #000000;
--webkit-box-shadow:10px 10px 20px #000000;
--moz-box-shadow: 10px 10px 20px #000000;
-}
-
-aside figure figcaption {
-display: block;
-width: 100%;
-margin: 10px auto 0px;
-line-height: 1em;
-text-align: center;
-font-style: italic;
-font-size: 0.7em;
+aside p {
+font-size: 0.9em;
+margin: 10px 0px 10px 15px;
 }
 
 aside li {
@@ -212,31 +197,19 @@ article ul li {
 margin-right: 0.5em;
 }
 
-aside h2 {
-text-align: center;
-}
-
-aside p {
-font-size: 0.8em;
-margin: 0px 0.7em;
-}
-
 section.full h2 {
 width: 100%;
 font-size: 1.5em;
-margin:50px 0px 0px 0px;
-border-top: 2px solid rgb(172, 172, 172);
-clear: left;
-float: left;
+margin:-130px 0px 10px 0px;
 }
 
+section.full ul {
+margin: 0px 0px 140px 0px;
+}
 
 dl {
 font-size: 0.9em;
-margin: 0px;
-margin-left: 60px;
-clear: left;
-float: left;
+margin: 0px 0px 130px 60px;
 }
 
 dt b {
@@ -251,4 +224,11 @@ padding-bottom: 30px;
 
 img {
 border-width: 0px;
+}
+
+h2+p img {
+display: block;
+box-shadow:10px 10px 20px #000000;
+-webkit-box-shadow:10px 10px 20px #000000;
+-moz-box-shadow: 10px 10px 20px #000000;
 }

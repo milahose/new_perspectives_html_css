@@ -3,51 +3,53 @@
 
    <head>
    <!--
-      CAMshots Digital Photography Glossary
-      Author: Mila Hose
-      Date: 1/28/16   
+      New Perspectives on HTML
+      Tutorial 2
+      Review Assignment
+
+
+      Filename:         photogloss.htm
+      Supporting files: camshots.jpg, camstyles.csss, modernizr-1.5.js, rainbow.png
    -->
+
       <meta charset="UTF-8" />
-      <title>CAMshots Digital Photography Glossary</title>
+
+      <title>CAMshots Tips of the Week Page</title>
       <script src="modernizr-1.5.js"></script>
-      <link href="camstyles.css" rel="stylesheet" type="text/css" />
+      <link href="constyles.css" rel="stylesheet" type="text/css" />
+      
    </head>
 
    <body>
-      <header id="top">
-         <img src="camshots.jpg" alt="CAMshots" usemap="#logomap" />
 
-         <map name="logomap">
-          <area shape="circle" coords="82, 78,80" href="index.htm" alt="Home Page" />
-          <area shape="rect" coords="235, 120, 310, 150" href="tips.htm" alt="Tips" />
-          <area shape="rect" coords="340, 120, 510, 150" href="glossary.htm" alt="Glossary" />
+      <header>
+         <img src="conlogo.jpg" alt="CAMshots" usemap="#conlogo"/>
+
+         <map name="conlogo">
+            <area shape="circle" coords="86,82,80" 
+                  href="camhome.htm" alt="home page" />
+            <area shape="rect" coords="222,120,310,161" 
+                  href="tipweek.htm" alt="tip of the week" />
+            <area shape="rect" coords="347,120,510,161" 
+                  href="contest.htm" alt="photo contest" />
+            <area shape="rect" coords="538,120,719,161" 
+                  href="photogloss.htm" alt="photo glossary" />
          </map>
       </header>
 
       <nav>
-        <ul>
-          <li><a href="index.htm">Home</a></li>
-          <li><a href="tips.htm">Tips</a></li>
-          <li><a href="glossary.htm">Glossary</a></li>
-        </ul>
+         <ul>
+            <li><a href="camhome.htm">Home</a></li>
+            <li><a href="tipweek.htm" title="View Weekly Tips from CAMshots">Tips</a></li>
+            <li><a href="contest.htm" title="Photo Contest">Contest</a></li>
+            <li><a href="photogloss.htm">Glossary</a></li>
+         </ul>
       </nav>
 
       <section class="full">
          <h1>Glossary</h1>
 
-         <nav>
-          [<a href="#A">A</a>] [<a href="#B">B</a>] [<a href="#C">C</a>]
-          [<a href="#D">D</a>] [<a href="#E">E</a>] [<a href="#F">F</a>]
-          [<a href="#G">G</a>] [<a href="#H">H</a>] [<a href="#I">I</a>]
-          [<a href="#J">J</a>] [<a href="#K">K</a>] [<a href="#L">L</a>]
-          [<a href="#M">M</a>] [<a href="#N">N</a>] [<a href="#O">O</a>]
-          [<a href="#P">P</a>] [<a href="#Q">Q</a>] [<a href="#R">R</a>]
-          [<a href="#S">S</a>] [<a href="#T">T</a>] [<a href="#U">U</a>]
-          [<a href="#V">V</a>] [<a href="#W">W</a>] [<a href="#X">X</a>]
-          [<a href="#Y">Y</a>] [<a href="#Z">Z</a>] 
-         </nav>
-
-         <h2 id="A">A</h2>
+         <h3>A</h3>
          <dl>
             <dt><b>Ambient Light</b></dt>
             <dd>The natural light in a scene.</dd>
@@ -62,7 +64,7 @@
                 image.</dd>
          </dl>
   
-         <h2 id="B">B</h2>
+         <h3>B</h3>
          <dl>
             <dt><b>Bit</b></dt>
             <dd>The smallest unit of computer memory.</dd>
@@ -74,7 +76,7 @@
                 for the computer.</dd>
          </dl>
 
-         <h2 id="C">C</h2>
+         <h3>C</h3>
          <dl>
             <dt><b>Chromatic Aberration</b></dt>
             <dd>A fringing effect around the edges, which is caused 
@@ -85,7 +87,7 @@
                 from those bits.</dd>
          </dl>
 
-         <h2 id="D">D</h2>
+         <h3>D</h3>
          <dl>
             <dt><b>Depth of Field</b></dt>
             <dd>The distance between the nearest and farthest points 
@@ -101,31 +103,30 @@
                 the greater the resolution.</dd>
          </dl>
 
-         <h2 id="E">E</h2>
+         <h3>E</h3>
          <dl>
             <dt><b>EXIF</b></dt>
             <dd>Exchangeable Image File. This file format embeds camera 
                 and exposure information into the graphic file created 
                 by the camera.</dd>
-            <dt id="exposure"><b>Exposure</b></dt>
+            <dt><b>Exposure</b></dt>
             <dd>The length of time that the lens is open, allowing light 
                 to fall on the camera's image sensor.</dd>
          </dl>
 
-         <h2 id="F">F</h2>
+         <h3>F</h3>
          <dl>
-            <dt id="f-stop"><b>F-stop</b></dt>
+            <dt><b>F-stop</b></dt>
             <dd>A numerical designation indicating the size of the 
                 aperture.</dd>
-            <dt id="flas_mode"><b>Flash Mode</b></dt>
+            <dt><b>Flash Mode</b></dt>
             <dd>The camera mode that determines how the internal flash is used
                 in the photo.</dd>
-            <dt id="focal_length"><b>Focal Length</b></dt>
+            <dt><b>Focal Length</b></dt>
             <dd>The distance from a point where an image is formed (the 
                 focal point) to a point in or near the camera lens.</dd>
          </dl>
 
-         <div><a href="#top">Return to Top</a> &#8657;</div>
       </section>
 
       <footer>
