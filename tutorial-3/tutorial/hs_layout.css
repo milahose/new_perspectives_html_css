@@ -1,4 +1,4 @@
-﻿/*
+/*
    Sunny Acres Layout Styles
    Author: Mila Hose
    Date: 2/5/17
@@ -6,7 +6,7 @@
 
 /* 
 ========================================
-					 Layout Styles
+        Holiday Page Layout Styles
 ========================================
 */
 
@@ -26,12 +26,20 @@ nav {
 width: 200px;
 float: left;
 margin-right: 10px;
+margin-top: -6px;
+}
+
+figure {
+   float: right;
+   border: 1px solid black;
+   width: 270px;
+   margin: 0px 0px 10px 10px;
 }
 
 section {
 width: 590px;
 float: left;
-margin-top: -6px;
+margin-top: -15px;
 }
 
 section img {
@@ -39,7 +47,7 @@ float:  right;
 margin: 15px;
 }
 
-address {
+footer address {
 clear: both;
 width: 100%;
 }
