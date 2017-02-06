@@ -1,0 +1,50 @@
+/*
+   ICI Text & Color Styles
+   Author: Mila Hose
+   Date: 2/6/17
+*/
+
+/* 
+========================================
+             Body Styles
+========================================
+*/
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: "Century Gothic", sans-serif;
+}
+
+/* 
+========================================
+            Heading Styles
+========================================
+*/
+
+header h1 {
+	color: yellow;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 28px;
+	font-kerning: 20px;
+	text-align: center;
+}
+
+article h2 {
+	font-size: 24px;
+	font-weight: normal;
+	font-kerning: 5px;
+}
+
+p {
+	text-align: justify;
+}
+
+strong.keyword  {
+	color: yellow;
+	font-weight: normal;
+}
+
+footer p {
+	text-align: center;
+}
