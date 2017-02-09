@@ -1,0 +1,44 @@
+﻿/*
+   Civil War History Text and Color Style
+   Author: Mila Hose
+   Date: 2/8/17  
+*/
+
+/* 
+========================================
+            Layout Styles
+========================================
+*/
+
+@import url("cw_layout.css");
+
+/* 
+========================================
+            Body Styles
+========================================
+*/
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+}
+
+/* 
+========================================
+            Header Styles
+========================================
+*/
+
+h1, h2, h3, 
+h4, h5, h6 {
+	color: hsl(212, 0%, 0%, 0.4);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: normal;
+	font-kerning: 5px;
+	text-indent: 5px;
+}
+
+body > header > h1 {
+	background-color: hsl(212, 100% 29%);
+	text-align: center;
+}
+
