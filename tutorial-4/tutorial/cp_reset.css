@@ -1,0 +1,33 @@
+/*
+	Cycle Pathology Styles to Reset Style Defaults
+	Author: Mila Hose 
+	Date: 2/22/17   
+*/
+
+/* 
+===============================================
+	Display HTML5 Structural Elements as Blocks
+===============================================
+*/
+
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/* 
+===============================================
+				Default Page Element Styles 
+===============================================
+*/
+
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
