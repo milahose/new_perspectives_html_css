@@ -258,6 +258,15 @@ aside p {
 	margin: 15px;
 }
 
+aside h2 a {
+	color: rgb(145, 98, 78);
+	text-decoration: none;
+}
+
+aside h2 a:hover {
+	color: rgb(105, 96, 87);
+}
+
 /* 
 ========================================
         	 Footer Styles
