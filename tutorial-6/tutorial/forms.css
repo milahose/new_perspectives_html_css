@@ -1,0 +1,210 @@
+/*
+	Survey Forms Style Sheet
+	Author: Mila Hose 
+	Date: 3/9/17   
+*/
+
+/* 
+========================================
+             Fieldset Styles
+========================================
+*/
+
+fieldset {
+	background-color: rgb(225, 246, 205);
+	border: 1px solid rgb(233, 69, 0);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+}
+
+legend {
+	background-color: rgb(233, 69, 0);
+	color: #fff;
+	padding: 3px .8px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+span {
+	color: rgb(233, 69, 0);	
+}
+
+/* 
+========================================
+             	Label Styles
+========================================
+*/
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* 
+========================================
+          Input Control Styles
+========================================
+*/
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+input#state {
+	width: 50px;
+}
+
+/* 
+========================================
+         Section List Styles
+========================================
+*/
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+/* 
+========================================
+         Option Button Styles
+========================================
+*/
+
+fieldset.optionGroup {
+	border-width: 0px;
+}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 30px;
+}
+
+fieldset.optionGroup input {
+	display: inline;
+	float: none;
+	margin: 0px 20px 0px 0px;
+	width: 20px;
+}
+
+/* 
+========================================
+          	Text Area Styles
+========================================
+*/
+
+textarea {
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+}
+
+/* 
+========================================
+          		Checbox Styles
+========================================
+*/
+
+#newsletter {
+	color: rgb(233, 69, 0);
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	font-size: 13px;
+}
+
+#newsletter input {
+	display: inline;
+	float: none;
+	width: 20px;
+}
+
+/* 
+========================================
+         Number Input Box Styles
+========================================
+*/
+
+#ordersPerMonth {
+	width: 70px;
+}
+
+/* 
+========================================
+         	Range Slider Styles
+========================================
+*/
+
+label.sliderLabel {
+	clear: none;
+	font-size: 0.7em;
+	margin: 10px 0px;
+	text-align: center;
+	width: 10px;
+}
+
+input[type="range"] {
+	width: 150px;
+}
+
+/* 
+========================================
+         			Button Styles
+========================================
+*/
+
+form p {
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+	display: inline;
+	float: none;
+	height: 40px;
+	width: 200px;
+}
+
+/* 
+========================================
+         	 Validation Styles
+========================================
+*/
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(220, 255, 220);
+}
+
+input:focus:valid {
+	background: rgb(220, 255, 220) url('go.png') bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-image: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url('stop.png') bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-image: contain;
+}
